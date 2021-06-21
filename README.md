@@ -1,2 +1,3 @@
-# Among-Us-SpaceScen
- Сайт с сценой из игры Among Us
+# Among-Us-Space-Scene
+
+Сайт с сценой из игры Among Us

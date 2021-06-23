@@ -43,7 +43,7 @@
     z-index: 1000;
     color: white;
     font-size: 35px;
-    font-family: arial, sans-serif,cursive;
+    font-family: arial,sans-serif,cursive;
     white-space: nowrap;
     overflow: hidden;
     animation: type 5s infinite steps(50,start);
@@ -52,7 +52,6 @@
 @keyframes type {
     from { width: 0; }
 }
-
 
 .content {
     position: relative;

@@ -1,15 +1,3 @@
-# Among-Us-Space-Scene
+# AMOGUS SPACE SCENE SITE
 
-Сайт с сценой из игры Among Us
-
-Portfolio-3 {
-
-https://vladimirsaenko.github.io/Portfolio-3/sites/site-27/AmoGUS/index.html
-
-}
-
-Codepen {
-
-https://codepen.io/vladimirsaenko/details/MWpdWZV
-
-}
+### AMOGUS

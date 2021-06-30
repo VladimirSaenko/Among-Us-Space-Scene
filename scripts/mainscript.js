@@ -5,7 +5,52 @@ let color1 = document.querySelector('.st2'); // основной цвет
 let color2 = document.querySelector('.st3'); // цвет в тени
 let color3 = document.querySelector('.st7'); // цвет учатска портфеля
 let color4 = document.querySelector('.st4'); // цвет портфеля
-let randomColor = getRandomInt(0,44);
+let randomColor = getRandomInt(0,22);
+const colors = [
+    'Red',
+    'Blue',
+    'Green',
+    'Pink',
+    'Orange',
+    'Yellow',
+    'Black',
+    'White',
+    'Purple',
+    'Brown',
+    'Cyan',
+    'Lime',
+    'Maroon',
+    'Rose',
+    'Banana',
+    'Gray',
+    'Tan',
+    'Coral',
+    'Fortegreen',
+    'Olive',
+    'Golden',
+    'Polar White',
+    'Old Orange',
+    'Piriwinkle',
+    'Baby Pink',
+    'Baby Blue',
+    'Crystal',
+    'Seafoam',
+    'Salmon',
+    'Lilac',
+    'Gold',
+    'Beige',
+    'Turquoise',
+    'Coffee',
+    'Sky',
+    'Sky Blue',
+    'Grey',
+    'Pearl',
+    'Hot Pink',
+    'Taupe',
+    'Lavender',
+    'Fuchsia',
+    'Fruit'
+];
 
 setInterval(function() {
     randomColor = getRandomInt(0,44);
@@ -393,126 +438,6 @@ function getColor() {
     if(randomColor == 22) {
         color1.style.fill = 'rgb(204,204,204)';
         color2.style.fill = 'rgb(153,153,153)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 23) {
-        color1.style.fill = 'rgb(252,154,3)';
-        color2.style.fill = 'rgb(149,95,21)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 24) {
-        color1.style.fill = 'rgb(177,180,255)';
-        color2.style.fill = 'rgb(141,145,252)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 25) {
-        color1.style.fill = 'rgb(253,188,230)';
-        color2.style.fill = 'rgb(255,112,200)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 26) {
-        color1.style.fill = 'rgb(161,239,252)';
-        color2.style.fill = 'rgb(99,207,233)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 27) {
-        color1.style.fill = 'rgb(238,210,251)';
-        color2.style.fill = 'rgb(206,126,249)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 28) {
-        color1.style.fill = 'rgb(174,244,181)';
-        color2.style.fill = 'rgb(122,253,139)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 29) {
-        color1.style.fill = 'rgb(251,136,92)';
-        color2.style.fill = 'rgb(228,99,80)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 30) {
-        color1.style.fill = 'rgb(204,144,230)';
-        color2.style.fill = 'rgb(126,107,196)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 31) {
-        color1.style.fill = 'rgb(255,194,15)';
-        color2.style.fill = 'rgb(207,170,1)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 32) {
-        color1.style.fill = 'rgb(177,138,95)';
-        color2.style.fill = 'rgb(147,95,74)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 33) {
-        color1.style.fill = 'rgb(1,254,145)';
-        color2.style.fill = 'rgb(1,231,79)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 34) {
-        color1.style.fill = 'rgb(125,51,6)';
-        color2.style.fill = 'rgb(78,27,0)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 35) {
-        color1.style.fill = 'rgb(0,148,254)';
-        color2.style.fill = 'rgb(0,125,191)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 36) {
-        color1.style.fill = 'rgb(0,169,198)';
-        color2.style.fill = 'rgb(0,125,145)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 37) {
-        color1.style.fill = 'rgb(128,128,128)';
-        color2.style.fill = 'rgb(64,64,64)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 38) {
-        color1.style.fill = 'rgb(176,192,243)';
-        color2.style.fill = 'rgb(87,96,161)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 40) {
-        color1.style.fill = 'rgb(188,167,138)';
-        color2.style.fill = 'rgb(156,136,103)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 41) {
-        color1.style.fill = 'rgb(153,141,215)';
-        color2.style.fill = 'rgb(136,118,228)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 42) {
-        color1.style.fill = 'rgb(200,43,114)';
-        color2.style.fill = 'rgb(158,40,100)';
-        color3.style.fill = color1.style.fill;
-        color4.style.fill = color2.style.fill;
-    }
-    if(randomColor == 43 || randomColor == 44) {
-        color1.style.fill = 'rgb(254,69,2)';
-        color2.style.fill = 'rgb(210,43,0)';
         color3.style.fill = color1.style.fill;
         color4.style.fill = color2.style.fill;
     }

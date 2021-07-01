@@ -95,4 +95,8 @@
     .imposter-text {
         font-size: 30px;
     }
+
+    .container {
+        height: auto;
+    }
 }

@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let color1 = document.querySelector('.st2'); // основной цвет
 let color2 = document.querySelector('.st3'); // цвет в тени

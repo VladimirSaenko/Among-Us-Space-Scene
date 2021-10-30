@@ -541,7 +541,7 @@ function getHat() {
     setInterval(function() {
         randomHat = getRandomInt(1,30);
         hat.src = `hats/${randomHat}.png`;
-    },5000);
+    }, 5000);
 }
 
 function getRandomInt(min, max) {

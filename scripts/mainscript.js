@@ -515,7 +515,7 @@ setInterval(function() {
         color7.style.fill = 'rgb(225, 225, 225)';
     }
     if(randomColor == 44) {
-        let randomNumber1 = getRandomInt(1, 456);
+        let randomNumber1 = getRandomInt(0, 457);
         impostortext.innerText = `Player ${randomNumber1} eliminated`;
         color1.style.fill = 'rgb(149, 33, 96)';
         color2.style.fill = 'rgb(108, 0, 58)';
@@ -525,7 +525,7 @@ setInterval(function() {
         color6.style.fill = 'rgb(0, 0, 0)';
     }
     if(randomColor == 45) {
-        let randomNumber2 = getRandomInt(1, 456);
+        let randomNumber2 = getRandomInt(0, 457);
         impostortext.innerText = `Player ${randomNumber2} eliminated`;
         color1.style.fill = 'rgb(45, 191, 190)';
         color2.style.fill = 'rgb(23, 161, 164)';

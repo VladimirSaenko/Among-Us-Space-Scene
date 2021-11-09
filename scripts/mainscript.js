@@ -77,7 +77,7 @@ const colors = [
     'Glaucous',
     'Lychee',
     'Watermelon',
-    'Avocado', // Avococde
+    'Avocado', // Avocode
     'Passion Fruit',
     'Scary Dark',
     'Empty Black',

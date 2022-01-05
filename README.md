@@ -9,9 +9,3 @@
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-26/AmoGUS/index.html
 
 ### }
-
-## Codepen {
-
-### https://codepen.io/vladimirsaenko/details/MWpdWZV
-
-### }

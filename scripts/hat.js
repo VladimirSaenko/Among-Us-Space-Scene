@@ -1,7 +1,7 @@
 
 "use strict";
 
-let randomHat = getRandomInt(1,35);
+let randomHat = getRandomInt(1, 35);
 let hat = document.getElementById("hat"); //шляпа
 hat.src = `hats/${randomHat}.png`;
 function getHat() {
